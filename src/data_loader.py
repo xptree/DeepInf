@@ -50,6 +50,7 @@ class InfluenceDataSet(Dataset):
         # self-loop trick, the input graphs should have no self-loop
         identity = np.identity(self.graphs.shape[1])
         self.graphs += identity
+        self.graphs[self.graphs != 0] = 1.0
         if model == "gat" or model == "pscn":
             self.graphs = self.graphs.astype(np.dtype('B'))
         elif model == "gcn":
