@@ -19,7 +19,7 @@ from gat_layers import BatchMultiHeadGraphAttention
 class BatchGAT(nn.Module):
     def __init__(self, pretrained_emb, vertex_feature, use_vertex_feature,
             n_units=[1433, 8, 7], n_heads=[8, 1],
-            dropout=0.1, attn_dropout=0.1, fine_tune=False,
+            dropout=0.1, attn_dropout=0.0, fine_tune=False,
             instance_normalization=False):
         super(BatchGAT, self).__init__()
         self.n_layer = len(n_units) - 1
