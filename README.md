@@ -2,4 +2,6 @@
 
 [DeepInf: Social Influence Prediction with Deep Learning](https://arxiv.org/abs/1807.05560)
 
-Under construction. Detailed scripts and datasets for experiments will be available soon.
+## Datasets
+Please download the datasets from [onedrive](https://1drv.ms/f/s!An4lcD8a80_7gzdLaanNUThTWwmy).
+
