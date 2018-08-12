@@ -1,5 +1,7 @@
 # DeepInf
 
+This is a PyTorch implementation of DeepInf for the task of predicting social influence, as described in our paper:
+
 [DeepInf: Social Influence Prediction with Deep Learning](https://arxiv.org/abs/1807.05560)
 
 ## Datasets
@@ -24,7 +26,7 @@ Please cite our paper if you use this code in your own work:
 
 ```
 @inproceedings{qiu2018deepinf,
-  title={DeepInf: Modeling influence locality in large social networks},
+  title={DeepInf: Social Influence Prediction with Deep Learning},
   author={Qiu, Jiezhong and Tang, Jian and Ma, Hao and Dong, Yuxiao and Wang, Kuansan and Tang, Jie},
   booktitle={Proceedings of the 24th ACM SIGKDD International Conference on Knowledge Discovery and Data Mining (KDD’18)},
   year={2018}
