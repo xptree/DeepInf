@@ -17,3 +17,17 @@ If you are interested in un-preprocessed data, please download them from the fol
 
 The promotional video is available [here](https://www.dropbox.com/s/hesbb7bdi3shp0i/deepinf.mp4?dl=0)
 
+
+## Cite
+
+Please cite our paper if you use this code in your own work:
+
+```
+@inproceedings{qiu2018deepinf,
+  title={DeepInf: Modeling influence locality in large social networks},
+  author={Qiu, Jiezhong and Tang, Jian and Ma, Hao and Dong, Yuxiao and Wang, Kuansan and Tang, Jie},
+  booktitle={Proceedings of the 24th ACM SIGKDD International Conference on Knowledge Discovery and Data Mining (KDD’18)},
+  year={2018}
+}
+```
+
